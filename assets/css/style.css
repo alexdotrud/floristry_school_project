@@ -1,0 +1,53 @@
+/*Google Fonts Delius Swash Caps*/
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
+/*CSS Variable*/
+:root {
+    --primary-font: "Delius Swash Caps", serif;
+    --secondary-font: "Delius Swash Caps", sans-serif;
+    --primary-color: #525B36; /* green */
+    --secondary-color: #4C4D4F; /* grey */
+    --highlight-color: #866FAC; /* purple */
+    --highlight-color-light: #D4D3D3; /* light grey */
+}
+/*Global styles*/
+body {
+    background-color: var(--highlight-color-light);
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+}
+h1,
+h2,
+h3 {
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+}
+p {
+    color: var(--secondary-color);
+    font-family: var(--secondary-font);
+}
+/*Navigation styles*/
+#navbar {
+    background-color:#64625E;
+}
+.logo {
+    max-height: 45px;
+}
+.custom-buttom-field {
+    border: 2px solid #E2D0FF;
+    background-color: #E2D0FF;
+    color: var(--secondary-color);
+}
+.custom-buttom-field:hover {
+    border: 2px solid #E2D0FF;
+    background-color: #E2D0FF;
+    color: var(--highlight-color-light);
+}
+.nav-link {
+    color: var(--highlight-color-light);
+}
+.nav-link:hover {
+    color: #E2D0FF;
+}
+.active{
+    color: #E2D0FF !important;
+}
