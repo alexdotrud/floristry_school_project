@@ -51,3 +51,35 @@ p {
 .active{
     color: #E2D0FF !important;
 }
+/*Main body*/
+/*Hero section*/
+#hero {
+    height: 650px;
+    width: 100%;
+    background: url("../images/bouquet-1853622_1280.jpg") no-repeat center center/cover;
+    position: relative;
+}
+.italic {
+    font-style: italic;
+    color: var(--highlight-color-light);
+}
+#cover-text {
+background-color: rgba(48, 46, 47, 0.63);
+position: absolute;
+padding: 0;
+}
+#cover-text > h2 {
+color: #866FAC;
+padding: 0;
+    bottom: 0px;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+}
+
+
+@media screen and (min-width:992px) {
+#cover-text {
+padding: 1rem 1rem;
+bottom: 55px;   
+}
+}
