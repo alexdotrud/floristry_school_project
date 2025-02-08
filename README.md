@@ -1,5 +1,6 @@
 # Stockholm Floristry School
 [View live project here!]()
+
 Welcome to the Floristry School Website, a demo project created to showcase the design and functionality of a floristry school platform.
 This is a fictional website designed for educational and portfolio purposes. It serves as an example of how a floristry school website could be structured, offering information about courses, student works, and sign-up options for updates.
 
