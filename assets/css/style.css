@@ -33,14 +33,14 @@ p {
     max-height: 45px;
 }
 .custom-buttom-field {
-    border: 2px solid #E2D0FF;
-    background-color: #E2D0FF;
+    border: 2px solid var(--highlight-color-light);
+    background-color: var(--highlight-color-light);
     color: var(--secondary-color);
 }
 .custom-buttom-field:hover {
     border: 2px solid #E2D0FF;
     background-color: #E2D0FF;
-    color: var(--highlight-color-light);
+    color: var(--secondary-color);
 }
 .nav-link {
     color: var(--highlight-color-light);
@@ -69,7 +69,7 @@ position: absolute;
 padding: 0;
 }
 #cover-text > h2 {
-color: #866FAC;
+color: #E2D0FF;
 padding: 0;
     bottom: 0px;
     padding-top: 1rem;
