@@ -26,6 +26,7 @@ h2,
 h3 {
     color: var(--primary-color);
     font-family: var(--primary-font);
+    text-align: center;
 }
 
 h1 {
@@ -39,6 +40,7 @@ p {
     color: var(--secondary-color);
     font-family: var(--secondary-font);
 }
+
 
 /*Navigation styles*/
 #navbar {
@@ -102,21 +104,72 @@ p {
     padding-left: 0.5rem;
 }
 
+/*Intro section*/
+#intro {
+    padding: 1rem 0.5rem;
+    margin-top: 1rem;
+}
 
-@media screen and (min-width:992px) {
+#intro>p {
+    text-align: center;
+}
 
+/*Courses section*/
+#courses {
+    margin-bottom: 1.5rem;
+}
+
+.card {
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    float: none;
+    padding: 0.5rem 0.5rem;
+    ;
+    text-align: center;
+    background-color: rgba(97, 79, 105, 0.35);
+}
+
+#courses .custom-buttom-field {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    border: 2px solid rgba(97, 79, 105, 0.35);
+    background-color: rgba(177, 173, 178, 0.233);
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+
+#courses .custom-buttom-field:hover {
+    border: 2px solid rgba(97, 79, 105, 0.35);
+    background-color: rgba(173, 147, 179, 0.39);
+    color: var(--secondary-color);
+}
+
+@media screen and (min-width: 768px) {
+
+    /*Courses Section -to change margin on tablets*/
+    .card {
+        margin-bottom: 1.5rem;
+        width: 21rem !important;
+
+    }
+}
+
+@media screen and (min-width:1200px) {
+
+    /*Hero Section - to change location or cover-tect on picture*/
     #cover-text {
         padding: 1rem 1rem;
         bottom: 55px;
     }
 
-}
+    /*Courses Section -to change margin on tablets*/
+    .card {
+        width: 21rem !important;
+    }
 
-/*Intro section*/
-#intro {
-    padding: 1rem 0.5rem;
-}
-
-#intro>p {
-    text-align: center;
+    .container {
+        max-width: 95%;
+    }
 }
