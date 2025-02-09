@@ -5,10 +5,10 @@
 :root {
     --primary-font: "Delius Swash Caps", serif;
     --secondary-font: "Delius Swash Caps", sans-serif;
-    --primary-color: #525B36;
+    --primary-color: #43540d;
     /* green */
-    --secondary-color: #4C4D4F;
-    /* grey */
+    --secondary-color: #43372e;
+    /* brown */
     --highlight-color: #866FAC;
     /* purple */
     --highlight-color-light: #D4D3D3;
@@ -41,10 +41,23 @@ p {
     font-family: var(--secondary-font);
 }
 
+footer {
+    background-color: #64625e;
+}
+
+/*Fixing bootstrap row design, so everything will be in center*/
+.row {
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /*Navigation styles*/
 #navbar {
-    background-color: #64625E;
+    background-color: #64625e;
 }
 
 .logo {
@@ -125,14 +138,18 @@ p {
     margin-bottom: 1rem;
     float: none;
     padding: 0.5rem 0.5rem;
-    ;
     text-align: center;
     background-color: rgba(97, 79, 105, 0.35);
+}
+
+.card-body {
+    height: 317px;
 }
 
 #courses .custom-buttom-field {
     display: block;
     margin: 0 auto;
+    margin-top: 1rem;
     width: 300px;
     border: 2px solid rgba(97, 79, 105, 0.35);
     background-color: rgba(177, 173, 178, 0.233);
@@ -146,6 +163,54 @@ p {
     color: var(--secondary-color);
 }
 
+/*Footer*/
+/*Contact Section*/
+#contacts h2,
+h4 {
+    color: #E2D0FF;
+}
+
+#contacts p {
+    color: var(--highlight-color-light);
+}
+
+#contacts .contact-us h2 {
+    text-align: center;
+}
+
+.contact-us {
+    order: 2;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.custom-link {
+    color: #E2D0FF;
+    ;
+}
+
+.custom-icon {
+    color: #E2D0FF;
+    width: 30px;
+    height: 30px;
+    padding-right: 1rem;
+}
+
+.opening-hours h2 {
+    text-align: center;
+}
+
+.opening-hours {
+
+    text-align: center;
+}
+
+table tr td,
+table tr th {
+    background-color: transparent !important;
+    color: var(--highlight-color-light) !important;
+}
+
 @media screen and (min-width: 768px) {
 
     /*Courses Section -to change margin on tablets*/
@@ -154,6 +219,26 @@ p {
         width: 21rem !important;
 
     }
+}
+
+@media screen and (min-width:992px) {
+
+    /*Contact Section- to change the width of cols*/
+    .opening-hours {
+        order: 2;
+        width: 35rem !important;
+        margin-left: 0rem;
+    }
+
+
+    .contact-us {
+        order: 1;
+        text-align: left;
+        margin-right: 0rem;
+        width: 35rem !important;
+    }
+
+
 }
 
 @media screen and (min-width:1200px) {
@@ -170,6 +255,6 @@ p {
     }
 
     .container {
-        max-width: 95%;
+        max-width: 100%;
     }
 }
