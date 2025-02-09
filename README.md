@@ -129,7 +129,10 @@ Live project can be found here -
 ## Credits 
 
 ### Content 
-
+https://stackoverflow.com/
+bootstrap
+https://codewithanbu.com/
+https://www.w3schools.com/
 
 ### Media
 https://pixabay.com/
