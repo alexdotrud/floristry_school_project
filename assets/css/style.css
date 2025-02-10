@@ -51,9 +51,8 @@ footer {
 
 /*Fixing bootstrap row design, so everything will be in center*/
 .row {
-    margin-top: 1rem;
-    margin-right: 0.5rem;
-    margin-left: 0.5rem;
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -69,6 +68,7 @@ footer {
     max-height: 45px;
 }
 
+/*Button on Navigation panel*/
 .custom-buttom-field {
     border: 2px solid var(--highlight-color-light);
     background-color: var(--highlight-color-light);
@@ -100,6 +100,7 @@ footer {
     height: 650px;
     width: 100%;
     background: url("../images/bouquet-1853622_1280.jpg") no-repeat center center/cover;
+    /*Position relative, so I can place text on top*/
     position: relative;
     margin-top: 50px;
 }
@@ -111,6 +112,7 @@ footer {
 
 #cover-text {
     background-color: rgba(48, 46, 47, 0.63);
+    /*Position Absolute so I can add it on top of the background*/
     position: absolute;
     padding: 0;
     bottom: 0px;
@@ -140,17 +142,15 @@ footer {
 }
 
 .card {
-    margin: 0 auto;
-    margin-top: 1rem;
     margin-bottom: 1rem;
-    float: none;
     padding: 0.5rem 0.5rem;
     text-align: center;
     background-color: rgba(97, 79, 105, 0.35);
 }
 
 .card-body {
-    height: 317px;
+    min-height: 317px;
+
 }
 
 /*Buttons design for Home/Gallery Pages*/
@@ -159,7 +159,7 @@ footer {
     display: block;
     margin: 0 auto;
     margin-top: 1rem;
-    width: 300px;
+    width: auto;
     border: 2px solid rgba(97, 79, 105, 0.35);
     background-color: #64625e;
 }
@@ -243,15 +243,11 @@ table tr th {
     object-fit: cover;
 }
 
-/*Thede 2 are added do remove all unnesesary paddings and margins*/
-.gallery-row {
-    margin: 0;
-    padding: 0;
-}
+/*These is added to remove all paddings and margins*/
 
-.col-sm-12,
-.col-md-6,
-.col-lg-4 {
+.gallery-row .col-sm-12,
+.gallery-row .col-md-6,
+.gallery-row .col-lg-4 {
     padding: 0;
     margin: 0;
 }
@@ -311,4 +307,5 @@ table tr th {
     .container {
         max-width: 100%;
     }
+
 }
