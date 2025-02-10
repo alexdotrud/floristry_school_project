@@ -141,6 +141,10 @@ footer {
     margin-bottom: 1.5rem;
 }
 
+#courses h2 {
+    margin-bottom: 2rem;
+}
+
 .card {
     margin-bottom: 1rem;
     padding: 0.5rem 0.5rem;
@@ -160,6 +164,7 @@ footer {
     margin: 0 auto;
     margin-top: 1rem;
     width: auto;
+    max-width: fit-content;
     border: 2px solid rgba(97, 79, 105, 0.35);
     background-color: #64625e;
 }
