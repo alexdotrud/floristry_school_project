@@ -51,8 +51,9 @@ footer {
     margin-right: 0.5rem;
     margin-left: 0.5rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    width: 100%;
 }
 
 /*Navigation styles*/
@@ -91,10 +92,11 @@ footer {
 /*Main body*/
 /*Hero section*/
 #hero {
-    height: 650px;
+    height: 750px;
     width: 100%;
     background: url("../images/bouquet-1853622_1280.jpg") no-repeat center center/cover;
     position: relative;
+    margin-top: 30px;
 }
 
 .italic {
@@ -152,16 +154,15 @@ footer {
     margin-top: 1rem;
     width: 300px;
     border: 2px solid rgba(97, 79, 105, 0.35);
-    background-color: rgba(177, 173, 178, 0.233);
-    color: var(--secondary-color);
-    font-weight: 600;
+    background-color: #64625e;
 }
 
 #courses .custom-buttom-field:hover {
     border: 2px solid rgba(97, 79, 105, 0.35);
     background-color: rgba(173, 147, 179, 0.39);
-    color: var(--secondary-color);
+
 }
+
 
 /*Footer*/
 /*Contact Section*/
@@ -187,6 +188,10 @@ h4 {
 .custom-link {
     color: #E2D0FF;
     ;
+}
+
+.custom-link:hover {
+    color: var(--secondary-color);
 }
 
 .custom-icon {
