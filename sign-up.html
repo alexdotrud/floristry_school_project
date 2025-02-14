@@ -50,72 +50,77 @@
     </header>
 
     <main>
-        <div class="container mt-5 pt-5">
-            <h1>Sign Up & Stay Inspired</h1>
-            <div class="row">
-                <div class="col-sm-12 col-md-6">
-                    <p>
-                        Join our floristry community and be the first to know about exciting news, upcoming courses, and
-                        special events! By signing up, you’ll receive exclusive updates, early access to enrollment, and
-                        insider tips to enhance your floral design skills.
+        <section id="signUp">
+            <div class="container mt-5 pt-5">
+                <h1>Sign Up & Stay Inspired</h1>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <p>
+                            Join our floristry community and be the first to know about exciting news, upcoming courses,
+                            and
+                            special events! By signing up, you’ll receive exclusive updates, early access to enrollment,
+                            and
+                            insider tips to enhance your floral design skills.
 
-                        Whether you're a beginner or an experienced florist looking to refine your craft, our school
-                        offers a variety of courses tailored to different skill levels. Stay connected and let your
-                        passion for flowers continue to grow with us!
+                            Whether you're a beginner or an experienced florist looking to refine your craft, our school
+                            offers a variety of courses tailored to different skill levels. Stay connected and let your
+                            passion for flowers continue to grow with us!
 
-                        Sign up today and let your floral journey blossom!
-                        <img src="assets/images/flowers-4567466_640.jpg" alt="Florist creating decoration">
-                    </p>
+                            Sign up today and let your floral journey blossom! <br>
+                            <img src="assets/images/flowers-4567466_640.jpg" alt="Florist creating decoration">
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <form>
+                            <div class="mb-3">
+                                <label for="firstName" class="form-label">First Name</label>
+                                <input type="text" class="form-control" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="lastName" class="form-label">Last Name</label>
+                                <input type="text" class="form-control" id="lastName" name="lastName" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="inputEmail" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="inputEmail" name="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="inputPassword" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="inputPassword" name="password" required>
+                            </div>
+                            <div class="mb-3">
+                                <legend class="form-label">What aspect of floristry interests you most?</legend>
+                                <div>
+                                    <input type="radio" id="techniques" name="interest" value="techniques" required>
+                                    <label for="techniques">Floral arrangement techniques</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="preservation" name="interest" value="preservation">
+                                    <label for="preservation">Flower care and preservation</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="preservation" name="interest" value="event">
+                                    <label for="event">Event and wedding floristry</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="preservation" name="interest" value="buisness">
+                                    <label for="buisness">Starting a floristry business</label>
+                                </div>
+                            </div>
+                            <legend class="checkbox-label">Which floristry-related activities interest you? (Select all
+                                that
+                                apply)</legend>
+                            <label><input type="checkbox" name="activities" value="arrangements"> Creating floral
+                                arrangements</label><br>
+                            <label><input type="checkbox" name="activities" value="plant_care"> Learning about plant
+                                care</label>
+                    </div>
+                    <button type="submit" class="btn custom-buttom-field">Sign Up</button>
+                    </form>
                 </div>
-                <div class="col-sm-12 col-md-6">
-                    <form>
-                        <div class="mb-3">
-                            <label for="firstName" class="form-label">First Name</label>
-                            <input type="text" class="form-control" id="firstName" name="firstName" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="lastName" class="form-label">Last Name</label>
-                            <input type="text" class="form-control" id="lastName" name="lastName" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="inputEmail" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="inputEmail" name="email" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="inputPassword" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="inputPassword" name="password" required>
-                        </div>
-                        <div class="mb-3">
-                            <legend class="form-label">What aspect of floristry interests you most?</legend>
-                            <div>
-                                <input type="radio" id="techniques" name="interest" value="techniques" required>
-                                <label for="techniques">Floral arrangement techniques</label>
-                            </div>
-                            <div>
-                                <input type="radio" id="preservation" name="interest" value="preservation">
-                                <label for="preservation">Flower care and preservation</label>
-                            </div>
-                            <div>
-                                <input type="radio" id="preservation" name="interest" value="event">
-                                <label for="event">Event and wedding floristry</label>
-                            </div>
-                            <div>
-                                <input type="radio" id="preservation" name="interest" value="buisness">
-                                <label for="buisness">Starting a floristry business</label>
-                            </div>
-                        </div>
-                        <legend class="checkbox-label">Which floristry-related activities interest you? (Select all that
-                            apply)</legend>
-                        <label><input type="checkbox" name="activities" value="arrangements"> Creating floral
-                            arrangements</label><br>
-                        <label><input type="checkbox" name="activities" value="plant_care"> Learning about plant
-                            care</label>
-                </div>
-                <button type="submit" class="btn btn-primary custom-buttom-field">Sign Up</button>
-                </form>
             </div>
-        </div>
-        </div>
+            </div>
+        </section>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
