@@ -22,6 +22,7 @@ body {
     color: var(--secondary-color);
 }
 
+
 h2,
 h3 {
     color: var(--primary-color);
@@ -39,6 +40,8 @@ h1 {
 p {
     color: var(--secondary-color);
     font-family: var(--secondary-font);
+    text-align: center;
+    margin-top: 1rem;
 }
 
 
@@ -69,7 +72,7 @@ footer {
 }
 
 /*Button on Navigation panel*/
-.custom-buttom-field {
+.navbar-custom-buttom-field {
     border: 2px solid var(--highlight-color-light);
     background-color: var(--highlight-color-light);
     color: var(--secondary-color);
@@ -157,25 +160,22 @@ footer {
 
 }
 
-/*Buttons design for Home/Gallery Pages*/
-#courses .custom-buttom-field,
-.g-discription .custom-buttom-field {
+/*Buttons design for Home/Gallery/Sign Up Pages*/
+.custom-buttom-field {
     display: block;
     margin: 0 auto;
     margin-top: 1rem;
     width: auto;
     max-width: fit-content;
     border: 2px solid rgba(97, 79, 105, 0.35);
-    background-color: #64625e;
+    color: var(--secondary-color);
 }
 
-.custom-buttom-field:hover,
 .custom-buttom-field:hover {
     border: 2px solid rgba(97, 79, 105, 0.35);
     background-color: rgba(173, 147, 179, 0.39);
 
 }
-
 
 /*Footer*/
 /*Contact Section*/
@@ -184,11 +184,16 @@ h4 {
     color: #E2D0FF;
 }
 
+#contacts h2 {
+    margin-top: 1rem;
+}
+
 #contacts p {
     color: var(--highlight-color-light);
 }
 
-#contacts .contact-us h2 {
+.contact-us h2,
+.contact-us h4 {
     text-align: center;
 }
 
@@ -198,12 +203,12 @@ h4 {
     margin-top: 1rem;
 }
 
-.custom-link {
+#contacts .custom-link {
     color: #E2D0FF;
     ;
 }
 
-.custom-link:hover {
+#contacts .custom-link:hover {
     color: var(--secondary-color);
 }
 
@@ -233,7 +238,6 @@ table tr th {
 /*Gallery Discription*/
 .g-discription {
     margin-top: 85px;
-    padding: 2rem 0.5rem;
 }
 
 .g-discription>p {
@@ -248,7 +252,11 @@ table tr th {
     object-fit: cover;
 }
 
-/*These is added to remove all paddings and margins*/
+#pictures {
+    margin-bottom: 1rem;
+}
+
+/*This is added to remove all paddings and margins*/
 
 .gallery-row .col-sm-12,
 .gallery-row .col-md-6,
@@ -257,6 +265,34 @@ table tr th {
     margin: 0;
 }
 
+/*Sign Up Page*/
+#signUp img {
+    max-width: 300px;
+    margin-top: 1.5rem;
+}
+
+#signUp h1 {
+    margin-top: 1rem;
+}
+
+#signUp form {
+    margin-top: 1rem;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid #866FAC;
+}
+
+#signUp legend {
+    padding-top: 1rem;
+}
+
+.form-label {
+    padding-top: 1rem;
+}
+
+#signUp {
+    margin-bottom: 1rem;
+}
 
 @media screen and (min-width: 768px) {
 
@@ -270,6 +306,12 @@ table tr th {
     .last-image {
         display: none;
     }
+
+    #signUp form,
+    #signUp p {
+        text-align: left
+    }
+
 }
 
 @media screen and (min-width:992px) {
@@ -294,6 +336,10 @@ table tr th {
         display: block;
     }
 
+    #signUp img {
+        max-width: 400px;
+    }
+
 }
 
 @media screen and (min-width:1200px) {
@@ -313,4 +359,7 @@ table tr th {
         max-width: 100%;
     }
 
+    #signUp img {
+        max-width: 550px;
+    }
 }
