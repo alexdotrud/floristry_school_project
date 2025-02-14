@@ -41,7 +41,7 @@
                             <a class="nav-link" href="index.html#contacts">Contacts</a>
                         </li>
                         <li class="nav-item">
-                            <a href="sign-up.html" class="btn custom-buttom-field ms-lg-3">Sign Up!</a>
+                            <a href="sign-up.html" class="btn navbar-custom-buttom-field ms-lg-3">Sign Up!</a>
                         </li>
                     </ul>
                 </div>
@@ -54,7 +54,7 @@
             <div class="container mt-5 pt-5">
                 <h1>Sign Up & Stay Inspired</h1>
                 <div class="row">
-                    <div class="col-sm-12 col-md-6">
+                    <div class="col-sm-12 col-md-6 column">
                         <p>
                             Join our floristry community and be the first to know about exciting news, upcoming courses,
                             and
@@ -70,65 +70,129 @@
                             <img src="assets/images/flowers-4567466_640.jpg" alt="Florist creating decoration">
                         </p>
                     </div>
-                    <div class="col-sm-12 col-md-6">
+                    <div class="col-sm-12 col-md-6 column">
                         <form>
-                            <div class="mb-3">
-                                <label for="firstName" class="form-label">First Name</label>
-                                <input type="text" class="form-control" id="firstName" name="firstName" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="lastName" class="form-label">Last Name</label>
-                                <input type="text" class="form-control" id="lastName" name="lastName" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="inputEmail" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="inputEmail" name="email" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="inputPassword" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="inputPassword" name="password" required>
-                            </div>
-                            <div class="mb-3">
-                                <legend class="form-label">What aspect of floristry interests you most?</legend>
-                                <div>
-                                    <input type="radio" id="techniques" name="interest" value="techniques" required>
-                                    <label for="techniques">Floral arrangement techniques</label>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6">
+                                        <label for="firstName" class="form-label">First Name</label>
+                                        <input type="text" class="form-control" id="firstName" name="firstName"
+                                            required>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <label for="lastName" class="form-label">Last Name</label>
+                                        <input type="text" class="form-control" id="lastName" name="lastName" required>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <label for="inputEmail" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="inputEmail" name="email" required>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <label for="inputPassword" class="form-label ">Password</label>
+                                        <input type="password" class="form-control" id="inputPassword" name="password"
+                                            required>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <legend class="radio-label">What aspect of floristry interests you most?
+                                        </legend>
+                                        <div>
+                                            <input type="radio" id="techniques" name="interest" value="techniques"
+                                                required>
+                                            <label for="techniques">Floral arrangement techniques</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="preservation" name="interest" value="preservation">
+                                            <label for="preservation">Flower care and preservation</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="event" name="event" value="event">
+                                            <label for="event">Event and wedding floristry</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="buisness" name="buisness" value="buisness">
+                                            <label for="buisness">Starting a floristry business</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <legend class="checkbox-label">Which floristry-related activities interest you?
+                                            (Select all
+                                            that
+                                            apply)</legend>
+                                        <label><input type="checkbox" name="activities" value="arrangements"> Creating
+                                            floral
+                                            arrangements</label><br>
+                                        <label><input type="checkbox" name="activities" value="plant_care"> Learning
+                                            about
+                                            plant
+                                            care</label>
+                                    </div>
+                                    <button type="submit" class="btn custom-buttom-field">Sign Up</button>
                                 </div>
-                                <div>
-                                    <input type="radio" id="preservation" name="interest" value="preservation">
-                                    <label for="preservation">Flower care and preservation</label>
-                                </div>
-                                <div>
-                                    <input type="radio" id="preservation" name="interest" value="event">
-                                    <label for="event">Event and wedding floristry</label>
-                                </div>
-                                <div>
-                                    <input type="radio" id="preservation" name="interest" value="buisness">
-                                    <label for="buisness">Starting a floristry business</label>
-                                </div>
-                            </div>
-                            <legend class="checkbox-label">Which floristry-related activities interest you? (Select all
-                                that
-                                apply)</legend>
-                            <label><input type="checkbox" name="activities" value="arrangements"> Creating floral
-                                arrangements</label><br>
-                            <label><input type="checkbox" name="activities" value="plant_care"> Learning about plant
-                                care</label>
+                        </form>
                     </div>
-                    <button type="submit" class="btn custom-buttom-field">Sign Up</button>
-                    </form>
                 </div>
-            </div>
             </div>
         </section>
     </main>
+    <!--Footer-->
+    <footer>
+        <section id="contacts">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-6 contact-us" style="width: 18rem;">
+                        <h2>Contact Us</h2>
+                        <p>
+                            Email: <a class="custom-link"
+                                href="mailto:stockholm_floristry_school@email.com">school@email.com</a> <br>
+                            Phone: +123 456 7890 <br>
+                            Address: 123 Flower Lane, Floral City, FC 12345 <br> </p>
+                        <h4>Follow Us</h4>
+                        <p><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram custom-icon"></i></a>
+                            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook custom-icon"></i></a>
+                            <a href="https://x.com/"><i class="fa-brands fa-twitter custom-icon"></i></a> <br>
+                            © 2025 Stockholm Floristry School. All rights reserved.</p>
+                    </div>
+                    <div class="col-12 col-md-6 opening-hours" style="width: 18rem;">
+                        <h2>Opening and Closing Hours</h2>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col">Opening</th>
+                                    <th scope="col">Closing</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Monday - Friday</td>
+                                    <td>10:00</td>
+                                    <td>17:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Saturday</td>
+                                    <td>11:00</td>
+                                    <td>15:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Sunday</td>
+                                    <td>Closed</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-qJd3cKLBqiRgLUSS0aZh00t8ypMeQ1ziiNH6w8qnj8cfAMOgSR6BBO3NXBUEj6EX" crossorigin="anonymous">
+    </footer>
+    <!--Bootstrap Link for JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-        integrity="sha384-RvfANbRck2sJzA9qK0mnOlNab/VyRlZly1fN2EV3v97QUgR0MrkqunKUcFZWFXJT" crossorigin="anonymous">
-    </script>
+    <!--Font Awesome Kit-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+
 </body>
 
 </html>
