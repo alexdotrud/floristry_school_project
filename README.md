@@ -92,6 +92,7 @@ This project serves as an opportunity to demonstrate web development skills and 
 On the Home and Gallery pages, I was using Bootstrap Grid, so containers content were aligned more on the right. I rewrites margins and padding rules for the rows and divs and set it to 0.
 
 For the courses card was used container, but on screen size 1200 it is showing 2 card on one row, and 1 on another.
+Navigation on Gallery page for Courses and Contact were not functionoing- needed to add index.html to the link as well.
 
 ### Unfixed Bugs
 

@@ -78,7 +78,7 @@ footer {
     color: var(--secondary-color);
 }
 
-.custom-buttom-field:hover {
+.navbar-custom-buttom-field:hover {
     border: 2px solid #E2D0FF;
     background-color: #E2D0FF;
     color: var(--secondary-color);
@@ -153,6 +153,7 @@ footer {
     padding: 0.5rem 0.5rem;
     text-align: center;
     background-color: rgba(97, 79, 105, 0.35);
+    height: 550px;
 }
 
 .card-body {
