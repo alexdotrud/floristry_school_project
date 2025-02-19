@@ -20,8 +20,20 @@ body {
     background-color: var(--highlight-color-light);
     font-family: var(--secondary-font);
     color: var(--secondary-color);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
+main {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 h2,
 h3 {
@@ -42,6 +54,7 @@ p {
     font-family: var(--secondary-font);
     text-align: center;
     margin-top: 1rem;
+    max-width: 1000px;
 }
 
 
@@ -99,6 +112,12 @@ footer {
 /*Home Page*/
 /*Main body*/
 /*Hero section*/
+#hero .custom-h1 {
+    font-size: 30px;
+    font-weight: normal;
+    color: #E2D0FF;
+}
+
 #hero {
     height: 650px;
     width: 100%;
@@ -154,6 +173,10 @@ footer {
     text-align: center;
     background-color: rgba(97, 79, 105, 0.35);
     height: 550px;
+}
+
+.row-full {
+    gap: 20px;
 }
 
 .card-body {
