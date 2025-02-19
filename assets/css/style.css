@@ -40,6 +40,8 @@ h3 {
     color: var(--primary-color);
     font-family: var(--primary-font);
     text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 h1 {
@@ -47,13 +49,14 @@ h1 {
     font-size: 35px;
     font-weight: bolder;
     text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 p {
     color: var(--secondary-color);
     font-family: var(--secondary-font);
     text-align: center;
-    margin-top: 1rem;
     max-width: 1000px;
 }
 
@@ -160,11 +163,11 @@ footer {
 
 /*Courses section*/
 #courses {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 #courses h2 {
-    margin-bottom: 2rem;
+    padding-bottom: 2rem;
 }
 
 .card {
@@ -181,6 +184,7 @@ footer {
 
 .card-body {
     min-height: 317px;
+    padding: 0.5rem 0.5rem;
 
 }
 
@@ -188,7 +192,8 @@ footer {
 .custom-buttom-field {
     display: block;
     margin: 0 auto;
-    margin-top: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     width: auto;
     max-width: fit-content;
     border: 2px solid rgba(97, 79, 105, 0.35);
@@ -212,13 +217,17 @@ h4 {
     margin-top: 1rem;
 }
 
+#contacts .contact-info,
 #contacts p {
     color: var(--highlight-color-light);
+    text-align: center;
 }
 
 .contact-us h2,
-.contact-us h4 {
+.contact-us h3 {
     text-align: center;
+    color: #E2D0FF;
+    margin-top: 2rem;
 }
 
 .contact-us {
@@ -241,6 +250,8 @@ h4 {
     width: 30px;
     height: 30px;
     padding-right: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .custom-icon:hover {
@@ -249,11 +260,15 @@ h4 {
 
 .opening-hours h2 {
     text-align: center;
+    margin-top: 2rem;
 }
 
 .opening-hours {
-
     text-align: center;
+}
+
+.opening-hours table {
+    margin-top: 2rem;
 }
 
 table tr td,
@@ -320,6 +335,10 @@ table tr th {
 
 #signUp {
     margin-bottom: 1rem;
+}
+
+.radio {
+    display: flex;
 }
 
 @media screen and (min-width: 768px) {
