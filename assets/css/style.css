@@ -170,6 +170,8 @@ footer {
 
 #courses h2 {
     padding-bottom: 2rem;
+    padding-top: 5rem;
+    margin-top: 0rem;
 }
 
 .card {
@@ -194,8 +196,8 @@ footer {
 .custom-buttom-field {
     display: block;
     margin: 0 auto;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
     width: auto;
     max-width: fit-content;
     border: 2px solid rgba(97, 79, 105, 0.35);
@@ -287,7 +289,8 @@ table tr th {
 
 .g-discription>p {
     text-align: center;
-    padding: 1rem 1rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 
 .custom-image {
