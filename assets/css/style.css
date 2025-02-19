@@ -68,6 +68,8 @@ footer {
 }
 
 
+
+
 /*Fixing bootstrap row design, so everything will be in center*/
 .row {
     margin: 0;
@@ -339,6 +341,29 @@ table tr th {
 
 .radio {
     display: flex;
+}
+
+/*Success page*/
+.success {
+    margin-top: 95px;
+    padding: 1rem 1rem;
+}
+
+.success-f {
+    position: absolute;
+}
+
+.success .custom-link {
+    color: var(--highlight-color);
+    ;
+}
+
+.success .custom-link:hover {
+    color: var(--secondary-color);
+}
+
+.success-icon {
+    color: var(--highlight-color);
 }
 
 @media screen and (min-width: 768px) {
