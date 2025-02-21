@@ -90,13 +90,13 @@ footer {
 }
 
 /*Button on Navigation panel*/
-.navbar-custom-buttom-field {
+.navbar-custom-button-field {
     border: 2px solid var(--highlight-color-light);
     background-color: var(--highlight-color-light);
     color: var(--secondary-color);
 }
 
-.navbar-custom-buttom-field:hover {
+.navbar-custom-button-field:hover {
     border: 2px solid #E2D0FF;
     background-color: #E2D0FF;
     color: var(--secondary-color);

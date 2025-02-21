@@ -93,6 +93,7 @@ On the Home and Gallery pages, I was using Bootstrap Grid, so containers content
 
 For the courses card was used container, but on screen size 1200 it is showing 2 card on one row, and 1 on another.
 Navigation on Gallery page for Courses and Contact were not functionoing- needed to add index.html to the link as well.
+Low perfprmance on Gallery Page. https://www.optimizeyourimage.com/ - convert for webp format. and to compress - https://tinypng.com/
 
 ### Unfixed Bugs
 
@@ -133,10 +134,10 @@ Live project can be found here -
 
 ### Content 
 https://stackoverflow.com/
-bootstrap
 https://codewithanbu.com/
 https://www.w3schools.com/
 
 ### Media
-https://pixabay.com/
-https://www.pexels.com/
+Picture from Home Page are from- https://pixabay.com/
+Pictures from Gallery Page and picture from Sign Up Page are from - https://www.pexels.com/
+Logo was created on - https://www.designevo.com/logo-maker/
