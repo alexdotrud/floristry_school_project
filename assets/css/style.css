@@ -126,7 +126,7 @@ footer {
 #hero {
     height: 650px;
     width: 100%;
-    background: url("../images/bouquet-1853622_1280.jpg") no-repeat center center/cover;
+    background: url("../images/bouquet-1853622_1280.webp") no-repeat center center/cover;
     /*Position relative, so I can place text on top*/
     position: relative;
     margin-top: 50px;
@@ -156,7 +156,7 @@ footer {
 /*Intro section*/
 #intro {
     padding: 1rem 0.5rem;
-    margin-top: 1rem;
+    margin: 1rem 1.5rem;
 }
 
 #intro>p {
@@ -285,6 +285,8 @@ table tr th {
 /*Gallery Discription*/
 .g-discription {
     margin-top: 85px;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
 }
 
 .g-discription>p {
