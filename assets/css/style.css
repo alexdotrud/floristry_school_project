@@ -193,7 +193,7 @@ footer {
 }
 
 /*Buttons design for Home/Gallery/Sign Up Pages*/
-.custom-buttom-field {
+.custom-button-field {
     display: block;
     margin: 0 auto;
     margin-top: 4rem;
@@ -204,7 +204,7 @@ footer {
     color: var(--secondary-color);
 }
 
-.custom-buttom-field:hover {
+.custom-button-field:hover {
     border: 2px solid rgba(97, 79, 105, 0.35);
     background-color: rgba(173, 147, 179, 0.39);
 
