@@ -11,6 +11,8 @@
   <!-- Preconnect to Google Fonts for faster font loading -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!--Preload for Hero image-->
+  <link rel="preload" as="image" href="hero-image.webp" type="image/webp">
   <!-- Load Google Fonts efficiently -->
   <link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap" rel="stylesheet">
   <!-- Links favicon for browser tabs -->
@@ -29,7 +31,8 @@
     <nav id="navbar" class="navbar fixed-top navbar-expand-lg">
       <div class="container">
         <a class="navbar-brand" href="index.html">
-          <img src="assets/images/new_logo.png" alt="Stockholm Floristry School logo" class="logo">
+          <img src="assets/images/new_logo.png" alt="Stockholm Floristry School logo" class="logo" width="110"
+            height="80">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -88,7 +91,7 @@
         <div class="row row-full">
           <div class="card col-sm-12 col-md-6 col-lg-3">
             <img src="assets/images/flowers-4567466_640.webp" class="card-img-top"
-              alt="Snapshot of a flower arrangement station">
+              alt="Snapshot of a flower arrangement station" loading="lazy">
             <div class="card-body">
               <h3 class="card-heading">Weekend Florist</h3>
               <p class="card-text">Weekend Florist is a hands-on course designed for beginners and hobbyists to learn
@@ -98,8 +101,8 @@
           </div>
 
           <div class="card col-sm-12 col-md-6 col-lg-3">
-            <img src="assets/images/advent-wreath-5800743_640.webp" class="card-img-top"
-              alt="image of Christmas wreath">
+            <img src="assets/images/advent-wreath-5800743_640.webp" class="card-img-top" alt="image of Christmas wreath"
+              loading="lazy">
             <div class="card-body">
               <h3 class="card-heading">Winter Holiday Wreath & Garland</h3>
               <p class="card-text">Winter Holiday Wreath & Garland is a seasonal course where you’ll learn to create
@@ -110,7 +113,8 @@
           </div>
 
           <div class="card col-sm-12 col-md-6 col-lg-3">
-            <img src="assets/images/wedding-2700495_640.webp" class="card-img-top" alt="Image of a wedding bouquet">
+            <img src="assets/images/wedding-2700495_640.webp" class="card-img-top" alt="Image of a wedding bouquet"
+              loading="lazy">
             <div class="card-body">
               <h3 class="card-heading">Wedding Flowers</h3>
               <p class="card-text">Wedding Flowers is a specialized course designed to teach you how to create elegant
@@ -119,7 +123,8 @@
             </div>
           </div>
           <div class="card col-sm-12 col-md-6 col-lg-3">
-            <img src="assets/images/flowers-1854075_640.webp" class="card-img-top" alt="Image of a wedding bouquet">
+            <img src="assets/images/flowers-1854075_640.webp" class="card-img-top" alt="Image of a wedding bouquet"
+              loading="lazy">
             <div class="card-body">
               <h3 class="card-heading">Event Table Styling</h3>
               <p class="card-text">This course focuses on designing elegant table settings for various events, from

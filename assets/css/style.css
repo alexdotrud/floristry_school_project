@@ -4,7 +4,7 @@
 /*CSS Variable*/
 :root {
     --primary-font: "Delius Swash Caps", serif;
-    --secondary-font: "Delius Swash Caps", sans-serif;
+    --secondary-font: "Delius Swash Caps";
     --primary-color: #43540d;
     /* green */
     --secondary-color: #43372e;
@@ -18,7 +18,7 @@
 /*Global styles*/
 body {
     background-color: var(--highlight-color-light);
-    font-family: var(--secondary-font);
+    font-family: "Delius Swash Caps", sans-serif, Arial, sans-serif;
     color: var(--secondary-color);
     display: flex;
     width: 100%;
@@ -30,6 +30,8 @@ body {
 main {
     display: flex;
     width: 100%;
+    min-height: 70vh;
+    /* Fixing position of footer on Success Page*/
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -133,7 +135,7 @@ footer {
 #hero {
     height: 650px;
     width: 100%;
-    background: url("../images/bouquet-1853622_1280.webp") no-repeat center center/cover;
+    background: url("../images/bouquet-168831_1280.jpg") no-repeat center center/cover;
     /*Position relative, so I can place text on top*/
     position: relative;
     margin-top: 50px;
@@ -145,7 +147,7 @@ footer {
 }
 
 #cover-text {
-    background-color: rgba(48, 46, 47, 0.63);
+    background-color: rgba(48, 46, 47, 0.509);
     /*Position Absolute so I can add it on top of the background*/
     position: absolute;
     padding: 0;
@@ -364,11 +366,12 @@ table tr th {
 /*Success page*/
 .success {
     margin-top: 95px;
-    padding: 1rem 1rem;
+    padding: 1rem 1.5rem;
 }
 
-.success-f {
-    position: absolute;
+.success p {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .success .custom-link {
@@ -383,6 +386,11 @@ table tr th {
 .success-icon {
     color: var(--highlight-color);
 }
+
+footer .success-f {
+    min-height: 200px;
+}
+
 
 @media screen and (min-width: 768px) {
 
