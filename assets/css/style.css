@@ -269,6 +269,8 @@ h4 {
 
 .opening-hours {
     text-align: center;
+    /*Opening hours will show next after contact information*/
+    order: 2;
 }
 
 .opening-hours table {
@@ -304,6 +306,10 @@ table tr th {
 
 #pictures {
     margin-bottom: 1rem;
+}
+
+#pictures .row {
+    margin-top: 3rem;
 }
 
 /*This is added to remove all paddings and margins*/
@@ -395,7 +401,6 @@ table tr th {
 
     /*Contact Section- to change the width of cols*/
     .opening-hours {
-        order: 2;
         width: 35rem !important;
         margin-left: 0rem;
     }

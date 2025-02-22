@@ -93,7 +93,8 @@ On the Home and Gallery pages, I was using Bootstrap Grid, so containers content
 
 For the courses card was used container, but on screen size 1200 it is showing 2 card on one row, and 1 on another.
 Navigation on Gallery page for Courses and Contact were not functionoing- needed to add index.html to the link as well.
-Low perfprmance on Gallery Page. https://www.optimizeyourimage.com/ - convert for webp format. and to compress - https://tinypng.com/
+Low perfprmance on Gallery Page. https://www.optimizeyourimage.com/ - convert for webp format. and to compress - https://tinypng.com/, https://imageresizer.com/ -for resize the images
+https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/, https://expertbeacon.com/the-ultimate-guide-to-preloading-google-fonts-for-optimal-web-performance/ - to improve web perfomance, optimize google fonts loading.
 
 ### Unfixed Bugs
 
@@ -102,7 +103,7 @@ Low perfprmance on Gallery Page. https://www.optimizeyourimage.com/ - convert fo
 ### Validator Testing 
 
 - HTML
-
+On sign up page use <fieldset> element inside div with radio-buttons and checkboxes.
 
 
 - CSS
@@ -136,6 +137,7 @@ Live project can be found here -
 https://stackoverflow.com/
 https://codewithanbu.com/
 https://www.w3schools.com/
+https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/, https://expertbeacon.com/the-ultimate-guide-to-preloading-google-fonts-for-optimal-web-performance/ - to improve web perfomance, optimize google fonts loading.
 
 ### Media
 Picture from Home Page are from- https://pixabay.com/
