@@ -63,19 +63,19 @@ This project serves as an opportunity to demonstrate web development skills and 
 
  ### Home:
 
-<img src="documentation/wireframes/Home Page.png" alt="Home Page wireframes" width="600"/>
+<img src="documentation/home-page.png" alt="Home Page wireframes" width="600"/>
 
 ### Gallery:
 
-<img src="documentation/wireframes/Gallery Page.png" alt="Gallery Page wireframes" width="600"/>
+<img src="documentation/gallery-page.png" alt="Gallery Page wireframes" width="600"/>
 
 ### Sign Up:
 
-<img src="documentation/wireframes/Sign Up Page.png" alt="Sign Up Page wireframes" width="600"/>
+<img src="documentation/sign_up-page.png" alt="Sign Up Page wireframes" width="600"/>
 
 ### Success Page:
 
-<img src="documentation/wireframes/Success Page.png" alt="Success Page wireframes" width="600"/>
+<img src="documentation/success-page.png" alt="Success Page wireframes" width="600"/>
 
 ## Features
 
@@ -150,6 +150,21 @@ Testing was an essential part of the development process to ensure that the webs
 - Screen Reader Testing: Checked the website's compatibility with screen readers to ensure that users with visual impairments can navigate the site.✅
 - Keyboard Navigation: Ensured that all interactive elements are navigable via keyboard for users with limited mobility.✅
 #### Performance Testing:
+- <strong>Home page:</strong>
+
+<img src="documentation/home-perfomance.png" alt="Home Page perfomance testing" width="600"/>
+
+- <strong>Gallery Page:</strong>
+
+<img src="documentation/gallery-perfomance.png" alt="Gallery Page perfomance testing" width="600"/>
+
+- <strong>Sign Up Page:</strong>
+
+<img src="documentation/sign_up-perfomance.png" alt="Sign Up Page perfomance testing" width="600"/>
+
+- <strong>Success Page:</strong>
+
+<img src="documentation/success-perfomance.png" alt="Success Page wperfomance testing" width="600"/>
 
 ## Technologies used
 
