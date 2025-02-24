@@ -1,81 +1,76 @@
-# Stockholm Floristry School
+# *Stockholm Floristry School*
+![Home page responsivness](documentation/responsive.png)
+
 [View live project here!](https://alexdotrud.github.io/floristry_school_project/)
 
 Welcome to the Floristry School Website, a demo project created to showcase the design and functionality of a floristry school platform.
 This is a fictional website designed for educational and portfolio purposes. It serves as an example of how a floristry school website could be structured, offering information about courses, student works, and sign-up options for updates.
 
 ## Content:
-  <ul>
-    <li><a href="#user-goals">User Goals</a></li>
-    <li><a href="#business-goals">Business Goals</a></li>
-    <li><a href="#developer-goals">Developer Goals</a></li>
-    <li><a href="#user-stories">User Stories</a></li>
-    <li><a href="#design-choices">Design Choices</a></li>
-    <li><a href="#features">Features</a></li>
-    <li><a href="#ux-design">UX Design</a></li>
-    <li><a href="#testing">Testing</a></li>
-    <li><a href="#technologies-used">Technologies Used</a></li>
-    <li><a href="#bugs">Bugs</a></li>
-    <li><a href="#deployment">Deployment</a></li>
-    <li><a href="#publishing">Publishing</a></li>
-    <li><a href="#credits">Credits</a></li>
-  </ul>
-</nav>
+- [User Goals](#user-goals)  
+- [Business Goals](#business-goals)  
+- [Developer Goals](#developer-goals)  
+- [User Stories](#user-stories)  
+- [Design Choices](#design-choices)  
+- [Features](#features)  
+- [UX Design](#ux-design)  
+- [Testing](#testing)  
+- [Technologies Used](#technologies-used)  
+- [Bugs](#bugs)  
+- [Deployment](#deployment)  
+- [Publishing](#publishing)  
+- [Credits](#credits)  
+
 
 ## User Goals
 The website is designed to provide an engaging and informative experience for users who are passionate about floristry. 
 #### Users should be able to:
 
-* Explore educational possibilities by checking information about courses and programs on Home page.
-* Explore floral arrangements created by students on Gallery Page.
-* Sign up to receive updates about upcoming courses, events, and news.
-* Navigate the website easily with a visually appealing and user-friendly design.
+- Explore educational possibilities by checking information about courses and programs on Home page.
+- Explore floral arrangements created by students on Gallery Page.
+- Sign up to receive updates about upcoming courses, events, and news.
+- Navigate the website easily with a visually appealing and user-friendly design.
 
 ## Business Goals
 This project simulates the online presence of a floristry school, focusing on key business objectives:
 
-* Attract Potential Students – Provide an engaging platform that encourages users to explore courses and sign up for updates.
-* Showcase Student Work – Build credibility and inspire future students by displaying high-quality floral arrangements.
-* Improve Lead Generation – Use the sign-up feature to simulate how a real business would collect user interest and expand its audience.
+- Attract Potential Students – Provide an engaging platform that encourages users to explore courses and sign up for updates.
+- Showcase Student Work – Build credibility and inspire future students by displaying high-quality floral arrangements.
+- Improve Lead Generation – Use the sign-up feature to simulate how a real business would collect user interest and expand its audience.
 
 ## Developer Goals
 This project serves as an opportunity to demonstrate web development skills and improve technical expertise:
 
-* Build a Responsive and User-Friendly Website – Ensure a seamless experience across all devices.
-* Implement a Functional Sign-Up System – Simulate real-world user interaction by collecting email subscriptions.
-* Showcase Frontend Development Skills – Use HTML, CSS, and JavaScript to create an aesthetically pleasing and interactive interface.
+- Build a Responsive and User-Friendly Website – Ensure a seamless experience across all devices.
+- Implement a Functional Sign-Up System – Simulate real-world user interaction by collecting email subscriptions.
+- Showcase Frontend Development Skills – Use HTML, CSS, and JavaScript to create an aesthetically pleasing and interactive interface.
 
 ## User Stories
-* As a visitor (potential student), I can navigate a well-designed Home page, so that I can quickly understand what the school offers and find relevant information.
-* As a visitor (potential student), I can browse available classes, so that I can explore different options and choose one that suits my interests.
-* As a visitor (potential student), I can see the gallery, so that I can see examples of floral designs created by students and results of the classes.
-* As a visitor (potential student), I can sign up for updates, so that I receive notifications about new courses and upcoming programs.
-* As a visitor (potential student), I can find a contact section easily, so that I can quickly reach out to the school for inquiries or to reserve a spot in a course.
+- As a visitor (potential student), I can navigate a well-designed Home page, so that I can quickly understand what the school offers and find relevant information.
+- As a visitor (potential student), I can browse available classes, so that I can explore different options and choose one that suits my interests.
+- As a visitor (potential student), I can see the gallery, so that I can see examples of floral designs created by students and results of the classes.
+- As a visitor (potential student), I can sign up for updates, so that I receive notifications about new courses and upcoming programs.
+- As a visitor (potential student), I can find a contact section easily, so that I can quickly reach out to the school for inquiries or to reserve a spot in a course.
 
  ## Design Choices
  
  Wireframes:
 
-* [Home](#home)
-* [Gallery](#gallery)
-* [Sign Up](#sign-up)
-* [Success Page](#success-page)
+- [Home](#home)
+- [Gallery](#gallery)
+- [Sign Up](#sign-up)
+- [Success Page](#success-page)
 
  ### Home:
-
-<img src="documentation/home-page.png" alt="Home Page wireframes" width="600"/>
-
+![Home Page wireframes](documentation/home-page.png)
 ### Gallery:
-
-<img src="documentation/gallery-page.png" alt="Gallery Page wireframes" width="600"/>
+![Gallery Page wireframes](documentation/gallery-page.png)
 
 ### Sign Up:
-
-<img src="documentation/sign_up-page.png" alt="Sign Up Page wireframes" width="600"/>
+![Sign Up Page wireframes](documentation/sign_up-page.png)
 
 ### Success Page:
-
-<img src="documentation/success-page.png" alt="Success Page wireframes" width="600"/>
+![Success Page wireframes](documentation/success-page.png)
 
 ## Features
 ### Navbar
@@ -83,21 +78,21 @@ This project serves as an opportunity to demonstrate web development skills and 
 - Contains the Stockholm Floristry School logo on the left side.
 - Navigation links are on the right side, providing quick access to essential pages:
 
-* Home – Leads to the main page, where users can learn about the floristry school.
-* Courses – Scrolls to the courses section on the home page, showcasing available floristry courses.
-* Gallery – Directs users to the gallery page, where they can explore floral creations by students.
-* Contacts – Scrolls to the contact section on the home page, allowing users to find contact information.
-* Sign Up – A distinct button-styled link that stands out, leading to the sign-up page for new students.
+    * Home – Leads to the main page, where users can learn about the floristry school.
+    * Courses – Scrolls to the courses section on the home page, showcasing available floristry courses.
+    * Gallery – Directs users to the gallery page, where they can explore floral creations by students.
+    * Contacts – Scrolls to the contact section on the home page, allowing users to find contact information.
+    * Sign Up – A distinct button-styled link that stands out, leading to the sign-up page for new students.
 ### Footer
 - Positioned at the bottom of the page for easy access to contact details and important information.
 - Divided into two main sections:
 - Contact Information:
-* Displays email, phone number, and physical address of Stockholm Floristry School.
-* Includes social media icons for Instagram, Facebook, and X (Twitter), linking to the school’s social platforms.
-* Copyright notice indicating that all rights are reserved.
+    * Displays email, phone number, and physical address of Stockholm Floristry School.
+    * Includes social media icons for Instagram, Facebook, and X (Twitter), linking to the school’s social platforms.
+    * Copyright notice indicating that all rights are reserved.
 - Opening Hours Table:
-1. Clearly lists the school’s opening and closing times for each day of the week.
-2. Helps users quickly check when they can visit or contact the school.
+    * Clearly lists the school’s opening and closing times for each day of the week.
+    * Helps users quickly check when they can visit or contact the school.
 ### Home Page
 - Visually appealing design with a clean, floral-inspired aesthetic that aligns with the theme of the floristry school.
 - Easy navigation ensures users can quickly explore different sections of the website.
@@ -151,7 +146,7 @@ Forms & Feedback: The sign-up form is simple and user-friendly, with clear instr
 - Highlight Color: #866FAC (purple)
 - Highlight Color (Light): #D4D3D3 (light grey)
 
-<img src="documentation/color-scheme.jpg" alt="Color Scheme" width="600"/>
+![Color Scheme](documentation/color-scheme.jpg)
 
 ### Fonts:
 - Primary Font: "Delius Swash Caps", serif
@@ -159,71 +154,92 @@ Forms & Feedback: The sign-up form is simple and user-friendly, with clear instr
 
 
 ## Testing 
-Testing was an essential part of the development process to ensure that the website functions correctly across different browsers and devices. Below are the various testing methods and results for the floristry school website:
+### Manual testing results:
 
-#### Functionality Testing:
+| **Test Category**               | **Test Description**                                                       | **Result** | **Status** |
+|----------------------------------|---------------------------------------------------------------------------|------------|------------|
+| **Functionality Testing**        | Links, buttons, and form inputs work.                                     | Pass       | ✅         |
+|                                  | Sign-Up form collects data and redirects to Success Page.                 | Pass       | ✅         |
+|                                  | Gallery Page displays images and content.                                 | Pass       | ✅         |
+| **Responsive Design Testing**    | Website adjusts layout on all screen sizes.                               | Pass       | ✅         |
+|                                  | Content, images, and forms work on all devices.                           | Pass       | ✅         |
+| **Navigation Testing**           | Navigation menu is accessible and works on all pages.                     | Pass       | ✅         |
+|                                  | All pages are linked properly.                                            | Pass       | ✅         |
+| **Accessibility Testing**        | Text color contrasts for readability.                                     | Pass       | ✅         |
+|                                  | Compatible with screen readers.                                           | Pass       | ✅         |
+|                                  | All interactive elements are keyboard navigable.                          | Pass       | ✅         |
+| **Form Testing**                 | Form fields accept user input correctly.                                  | Pass       | ✅         |
+|                                  | Form validation works as expected (e.g., required fields).                | Pass       | ✅         |
+|                                  | Form submits correctly and redirects to Success Page.                     | Pass       | ✅         |
+|                                  | Form can only be submitted if all text fields are filled and one radio button is selected. | Pass | ✅         |
+|                                  | Displays "Please fill out this field" for empty text fields.             | Pass       | ✅         |
+|                                  | Displays "Please select one of these options" for missing radio button selection. | Pass | ✅         |
 
-- Ensured that all links, buttons, and form inputs work as expected.✅ 
-- Verified that the Sign-Up form successfully collects user data and redirects to the Success Page after submission.✅ 
-- Confirmed that the Gallery Page displays images and content properly.✅ 
 
-#### Responsive Design Testing:
-- Tested the website across different screen sizes (mobile, tablet, desktop) to ensure the layout adjusts appropriately.✅ 
-- Verified that all content, images, and forms remain usable and visually appealing on all devices.✅ 
-
-#### Navigation Testing:
-- Ensured that the navigation menu is easily accessible and functions correctly across all pages.✅ 
-- Checked that the Home, Gallery, Sign-Up, and Success pages are all linked properly.✅ 
-
-#### Accessibility Testing:
-- Color Contrast: Verified that the text color contrasts sufficiently with the background for readability, adhering to accessibility standards.✅ 
-- Screen Reader Testing: Checked the website's compatibility with screen readers to ensure that users with visual impairments can navigate the site.✅
-- Keyboard Navigation: Ensured that all interactive elements are navigable via keyboard for users with limited mobility.✅
 
 #### Performance Testing:
-- <strong>Home page:</strong>
+- **Home page:**
 
-<img src="documentation/home-perfomance.png" alt="Home Page perfomance testing" width="600"/>
+  ![Home Page performance testing](documentation/home-perfomance.png)
 
-- <strong>Gallery Page:</strong>
+- **Gallery Page:**
 
-<img src="documentation/gallery-perfomance.png" alt="Gallery Page perfomance testing" width="600"/>
+  ![Gallery Page performance testing](documentation/gallery-perfomance.png)
 
-- <strong>Sign Up Page:</strong>
+- **Sign Up Page:**
 
-<img src="documentation/sign_up-perfomance.png" alt="Sign Up Page perfomance testing" width="600"/>
+  ![Sign Up Page performance testing](documentation/sign_up-perfomance.png)
 
-- <strong>Success Page:</strong>
+- **Success Page:**
 
-<img src="documentation/success-perfomance.png" alt="Success Page wperfomance testing" width="600"/>
+  ![Success Page performance testing](documentation/success-perfomance.png)
 
 ## Technologies used
 
-- HTML
-- CSS
-- CSS Flexbox 
-- Bootstrap
-- JavaScript
-- Git 
-- Github (for deployment)
-- Font Awesome
-- Google Fonts
-- Visual Studio Code
+### HTML
+**HTML** is used to structure the content on the website, including headings, paragraphs, and forms.
+
+### CSS
+**CSS** is used to style the website, including layouts, colors, fonts, and overall design.
+
+### CSS Flexbox
+**CSS Flexbox** is used for creating responsive layouts by aligning and distributing elements within a container.
+
+### Bootstrap
+**Bootstrap** is used for quick and responsive design with pre-built components like navigation bars and buttons.
+
+### JavaScript
+**JavaScript** is used to add interactive features like form validation and dynamic content updates.
+
+### Git
+**Git** is used for version control, allowing tracking of code changes and collaboration with team members.
+
+### GitHub
+**GitHub** is used to host the project’s repository and deploy the website through GitHub Pages.
+
+### Font Awesome
+**Font Awesome** is used to add scalable vector icons to the website for better user interaction.
+
+### Google Fonts
+**Google Fonts** is used to enhance typography by integrating stylish fonts into the website.
+
+### Visual Studio Code
+**Visual Studio Code** is used as the code editor for writing and managing the website's source code.
 
 ## Bugs
 
 ### Solved bugs
-- <strong>Bootstrap Grid Alignment Issue:</strong> On the Home and Gallery pages, the Bootstrap Grid system caused content within containers to be aligned more to the right. This was corrected by overriding Bootstrap's default margin and padding rules for rows and divs, setting them to 0 for proper alignment.
 
-- <strong>Course Cards Layout Issue:</strong> On screen sizes 1200px and above, course cards were not displaying evenly, with two cards in one row and one in another. The issue was caused by container constraints and was resolved by adjusting grid and column settings to maintain a consistent layout across all screen sizes.
+- **Bootstrap Grid Alignment Issue:** On the Home and Gallery pages, the Bootstrap Grid system caused content within containers to be aligned more to the right. This was corrected by overriding Bootstrap's default margin and padding rules for rows and divs, setting them to 0 for proper alignment.
 
-- <strong>Broken Navigation Links on the Gallery Page:</strong> The "Courses" and "Contact" navigation links were not functioning correctly due to missing file paths. This was fixed by adding index.html to the links, ensuring proper navigation.
+- **Course Cards Layout Issue:** On screen sizes 1200px and above, course cards were not displaying evenly, with two cards in one row and one in another. The issue was caused by container constraints and was resolved by adjusting grid and column settings to maintain a consistent layout across all screen sizes.
+
+- **Broken Navigation Links on the Gallery Page:** The "Courses" and "Contact" navigation links were not functioning correctly due to missing file paths. This was fixed by adding index.html to the links, ensuring proper navigation.
 
 ### Performance Enhancements
-- <strong>Optimized Image Loading on the Gallery Page:</strong> Converted images to WebP format for faster loading using Optimize Your Image.
-Compressed images to reduce file size without compromising quality using tools like TinyPNG and Image Resizer.
-- <strong>Google Fonts Optimization:</strong> Implemented preloading and preconnect techniques to enhance font loading speed.
-Followed best practices from Chrome Developer Guide and ExpertBeacon to minimize render-blocking and improve page performance.
+- **Optimized Image Loading on the Gallery Page:** Converted images to WebP format for faster loading using Optimize Your Image. Compressed images to reduce file size without compromising quality using tools like TinyPNG and Image Resizer.
+
+- **Google Fonts Optimization:** Implemented preloading and preconnect techniques to enhance font loading speed. Followed best practices from Chrome Developer Guide and ExpertBeacon to minimize render-blocking and improve page performance.
 ### Unfixed Bugs
 
 - No unfixed bugs found.
@@ -242,7 +258,7 @@ No errors found
 
 
 ## Deployment
-Live project can be found here - https://alexdotrud.github.io/floristry_school_project/
+[Live project can be found here!](https://alexdotrud.github.io/floristry_school_project/)
 
 The project was deployed using GitHub Pages, which allows for easy hosting of static websites directly from a GitHub repository.
  Below are the steps taken to deploy the website.
@@ -277,7 +293,7 @@ We welcome contributions to floristry_school_project! Follow these steps:
    git commit -m "Add feature description"
    ```
 
-3. Push the changes and open a pull request:
+4. Push the changes and open a pull request:
    ```bash
    git push
    ```
@@ -290,11 +306,11 @@ We welcome contributions to floristry_school_project! Follow these steps:
 - #### Text Content: 
 All the content provided on this website is fictional and created for demonstration purposes only.
 - #### Images:
-<ol> 
-<li>Picture from Home Page are from- (https://pixabay.com/).</li>
-<li>Pictures from Gallery Page and picture from Sign Up Page are from - (https://www.pexels.com/).</li>
-<li>Logo was created on - (https://www.designevo.com/logo-maker/).</li>
-</ol>
+
+1. Picture from Home Page are from- (https://pixabay.com/).
+2. Pictures from Gallery Page and picture from Sign Up Page are from - (https://www.pexels.com/).
+3. Logo was created on - (https://www.designevo.com/logo-maker/).
+
 
 ### Media
 - #### Fonts: 
@@ -302,11 +318,10 @@ The website uses the Delius Swash Caps font, available from Google Fonts.
 - #### Icons: 
 Icons used in the site were sourced from FontAwesome (https://fontawesome.com/).
 - #### Other tools:
-<ol>
-<li><strong>Stack Overflow:</strong> Used for troubleshooting and seeking solutions to development challenges (https://stackoverflow.com/).</li>
-<li><strong>CodeWithAnbu:</strong> Resource for learning and improving web development techniques (https://codewithanbu.com/).</li>
-<li><strong>W3Schools:</strong> Used for reference and tutorials on HTML, CSS, JavaScript, and more (https://www.w3schools.com/).</li>
-<li><strong>Chrome DevTools Lighthouse:</strong> Used to test and improve web performance (https://developer.chrome.com/docs/lighthouse/performance/).</li>
-<li><strong>ExpertBeacon:</strong> Helped in learning how to optimize Google Fonts loading for better performance (https://expertbeacon.com/the-ultimate-guide-to-preloading-google-fonts-for-optimal-web-performance/).</li>
-<li><strong>Schemecolor:</strong> Used to create color scheme (https://www.schemecolor.com/).</li>
-</ol>
+<>
+1. <strong>Stack Overflow:</strong> Used for troubleshooting and seeking solutions to development challenges (https://stackoverflow.com/).
+2. <strong>CodeWithAnbu:</strong> Resource for learning and improving web development techniques (https://codewithanbu.com/).
+3. <strong>W3Schools:</strong> Used for reference and tutorials on HTML, CSS, JavaScript, and more (https://www.w3schools.com/).
+4. <strong>Chrome DevTools Lighthouse:</strong> Used to test and improve web performance (https://developer.chrome.com/docs/lighthouse/performance/).
+5. <strong>ExpertBeacon:</strong> Helped in learning how to optimize Google Fonts loading for better performance (https://expertbeacon.com/the-ultimate-guide-to-preloading-google-fonts-for-optimal-web-performance/).
+6. <strong>Schemecolor:</strong> Used to create color scheme (https://www.schemecolor.com/).
