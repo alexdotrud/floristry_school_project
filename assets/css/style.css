@@ -132,6 +132,11 @@ footer {
     color: #E2D0FF;
 }
 
+.custom-h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
 #hero {
     height: 650px;
     width: 100%;
