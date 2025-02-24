@@ -78,17 +78,45 @@ This project serves as an opportunity to demonstrate web development skills and 
 <img src="documentation/success-page.png" alt="Success Page wireframes" width="600"/>
 
 ## Features
+### Navbar
+- Positioned at the top of the page and is fixed for easy navigation.
+- Contains the Stockholm Floristry School logo on the left side.
+- Navigation links are on the right side, providing quick access to essential pages:
 
+* Home – Leads to the main page, where users can learn about the floristry school.
+* Courses – Scrolls to the courses section on the home page, showcasing available floristry courses.
+* Gallery – Directs users to the gallery page, where they can explore floral creations by students.
+* Contacts – Scrolls to the contact section on the home page, allowing users to find contact information.
+* Sign Up – A distinct button-styled link that stands out, leading to the sign-up page for new students.
+### Footer
+- Positioned at the bottom of the page for easy access to contact details and important information.
+- Divided into two main sections:
+- Contact Information:
+* Displays email, phone number, and physical address of Stockholm Floristry School.
+* Includes social media icons for Instagram, Facebook, and X (Twitter), linking to the school’s social platforms.
+* Copyright notice indicating that all rights are reserved.
+- Opening Hours Table:
+1. Clearly lists the school’s opening and closing times for each day of the week.
+2. Helps users quickly check when they can visit or contact the school.
 ### Home Page
-- Visually appealing design with easy navigation for users to explore the site.
+- Visually appealing design with a clean, floral-inspired aesthetic that aligns with the theme of the floristry school.
+- Easy navigation ensures users can quickly explore different sections of the website.
+- Responsive layout adapts seamlessly to desktops, tablets, and mobile devices for an optimal browsing experience.
+#### Hero Section
+- Large, eye-catching banner featuring a beautiful floral arrangement.
+- A welcoming headline that conveys the essence of the school.
 #### Introduction section
 - General information about the floristry school, including its mission and offerings.
+- Highlights the school’s approach to teaching, whether through hands-on workshops or comprehensive courses.
+- Engages visitors with a warm and inviting tone, encouraging them to explore floristry.
 #### Courses section
-- Provides detailed information about courses and programs available at the school. Includes a sign-up button for easy access to the Sign-Up Page.
+- Provides a detailed breakdown of the various floristry courses and programs available.
+- A  "Sign Up" button is placed for easy access to the Sign-Up Page, encouraging enrollment.
 
 ### Gallery Page
 - Showcases a variety of floral arrangements created by students.
 - Displays examples of completed work to inspire prospective students.
+- A  "Stay Updated On New Courses" button is placed for easy access to the Sign-Up Page, encouraging enrollment.
 
 ### Sign Up Page
 #### Sign Up Introduction
@@ -123,14 +151,16 @@ Forms & Feedback: The sign-up form is simple and user-friendly, with clear instr
 - Highlight Color: #866FAC (purple)
 - Highlight Color (Light): #D4D3D3 (light grey)
 
+<img src="documentation/color-scheme.jpg" alt="Color Scheme" width="600"/>
+
 ### Fonts:
 - Primary Font: "Delius Swash Caps", serif
 - Secondary Font: "Delius Swash Caps", sans-serif
 
+
 ## Testing 
 Testing was an essential part of the development process to ensure that the website functions correctly across different browsers and devices. Below are the various testing methods and results for the floristry school website:
 
-### Manual Testing
 #### Functionality Testing:
 
 - Ensured that all links, buttons, and form inputs work as expected.✅ 
@@ -149,6 +179,7 @@ Testing was an essential part of the development process to ensure that the webs
 - Color Contrast: Verified that the text color contrasts sufficiently with the background for readability, adhering to accessibility standards.✅ 
 - Screen Reader Testing: Checked the website's compatibility with screen readers to ensure that users with visual impairments can navigate the site.✅
 - Keyboard Navigation: Ensured that all interactive elements are navigable via keyboard for users with limited mobility.✅
+
 #### Performance Testing:
 - <strong>Home page:</strong>
 
@@ -170,8 +201,10 @@ Testing was an essential part of the development process to ensure that the webs
 
 - HTML
 - CSS
+- CSS Flexbox 
 - Bootstrap
 - JavaScript
+- Git 
 - Github (for deployment)
 - Font Awesome
 - Google Fonts
@@ -275,4 +308,5 @@ Icons used in the site were sourced from FontAwesome (https://fontawesome.com/).
 <li><strong>W3Schools:</strong> Used for reference and tutorials on HTML, CSS, JavaScript, and more (https://www.w3schools.com/).</li>
 <li><strong>Chrome DevTools Lighthouse:</strong> Used to test and improve web performance (https://developer.chrome.com/docs/lighthouse/performance/).</li>
 <li><strong>ExpertBeacon:</strong> Helped in learning how to optimize Google Fonts loading for better performance (https://expertbeacon.com/the-ultimate-guide-to-preloading-google-fonts-for-optimal-web-performance/).</li>
+<li><strong>Schemecolor:</strong> Used to create color scheme (https://www.schemecolor.com/).</li>
 </ol>
