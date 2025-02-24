@@ -14,8 +14,8 @@ This is a fictional website designed for educational and portfolio purposes. It 
 - [Design Choices](#design-choices)  
 - [Features](#features)  
 - [UX Design](#ux-design)  
-- [Testing](#testing)  
 - [Technologies Used](#technologies-used)  
+- [Testing](#testing)  
 - [Bugs](#bugs)  
 - [Deployment](#deployment)  
 - [Publishing](#publishing)  
@@ -153,6 +153,28 @@ Forms & Feedback: The sign-up form is simple and user-friendly, with clear instr
 - Secondary Font: "Delius Swash Caps", sans-serif
 
 
+## Technologies used
+
+- **HTML** is used to structure the content on the website, including headings, paragraphs, and forms.
+
+- **CSS** is used to style the website, including layouts, colors, fonts, and overall design.
+
+- **CSS Flexbox** is used for creating responsive layouts by aligning and distributing elements within a container.
+
+- **Bootstrap** is used for quick and responsive design with pre-built components like navigation bars and buttons.
+
+- **JavaScript** is used for navbar.
+
+- **Git** is used for version control, allowing tracking of code changes and collaboration with team members.
+
+- **GitHub** is used to host the project’s repository and deploy the website through GitHub Pages.
+
+- **Font Awesome** is used to add scalable vector icons to the website for better user interaction.
+
+- **Google Fonts** is used to enhance typography by integrating stylish fonts into the website.
+
+- **Visual Studio Code** is used as the code editor for writing and managing the website's source code.
+
 ## Testing 
 ### Manual testing results:
 
@@ -193,28 +215,6 @@ Forms & Feedback: The sign-up form is simple and user-friendly, with clear instr
 - **Success Page:**
 
   ![Success Page performance testing](documentation/success-perfomance.png)
-
-## Technologies used
-
-- **HTML** is used to structure the content on the website, including headings, paragraphs, and forms.
-
-- **CSS** is used to style the website, including layouts, colors, fonts, and overall design.
-
-- **CSS Flexbox** is used for creating responsive layouts by aligning and distributing elements within a container.
-
-- **Bootstrap** is used for quick and responsive design with pre-built components like navigation bars and buttons.
-
-- **JavaScript** is used to add interactive features 
-
-- **Git** is used for version control, allowing tracking of code changes and collaboration with team members.
-
-- **GitHub** is used to host the project’s repository and deploy the website through GitHub Pages.
-
-- **Font Awesome** is used to add scalable vector icons to the website for better user interaction.
-
-- **Google Fonts** is used to enhance typography by integrating stylish fonts into the website.
-
-- **Visual Studio Code** is used as the code editor for writing and managing the website's source code.
 
 ## Bugs
 
@@ -275,6 +275,7 @@ We welcome contributions to floristry_school_project! Follow these steps:
 1. On GitHub.com, navigate to the main page of the repository.
 2. Above the list of files, click Code.
 3. Copy the URL for the repository.
+ ![Copy this URL](documentation/url-copy.png)
 4. Type git clone, and then paste the URL you copied earlier.
 5. Press Enter to create your local clone.
 
@@ -291,10 +292,11 @@ We welcome contributions to floristry_school_project! Follow these steps:
    git commit -m "Add feature description"
    ```
 
-4. Push the changes and open a pull request:
+4. Push the last changes and open a pull request:
    ```bash
    git push
    ```
+
 
 
 
