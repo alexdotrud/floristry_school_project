@@ -199,7 +199,7 @@ Forms & Feedback: The sign-up form is simple and user-friendly, with clear instr
 
 
 
-#### Performance Testing:
+#### Lighthouse Report:
 - **Home page:**
 
   ![Home Page performance testing](documentation/home-perfomance.png)
@@ -276,7 +276,7 @@ We welcome contributions to floristry_school_project! Follow these steps:
 2. Above the list of files, click Code.
 3. Copy the URL for the repository.
  ![Copy this URL](documentation/url-copy.png)
-4. Type git clone, and then paste the URL you copied earlier.
+4. Type git clone in opened terminal, and then paste the URL you copied earlier.
 5. Press Enter to create your local clone.
 
 ### Forking
