@@ -1,4 +1,4 @@
-# *Stockholm Floristry School*
+# **Stockholm Floristry School**
 ![Home page responsivness](documentation/responsive.png)
 
 [View live project here!](https://alexdotrud.github.io/floristry_school_project/)
@@ -196,35 +196,25 @@ Forms & Feedback: The sign-up form is simple and user-friendly, with clear instr
 
 ## Technologies used
 
-### HTML
-**HTML** is used to structure the content on the website, including headings, paragraphs, and forms.
+- **HTML** is used to structure the content on the website, including headings, paragraphs, and forms.
 
-### CSS
-**CSS** is used to style the website, including layouts, colors, fonts, and overall design.
+- **CSS** is used to style the website, including layouts, colors, fonts, and overall design.
 
-### CSS Flexbox
-**CSS Flexbox** is used for creating responsive layouts by aligning and distributing elements within a container.
+- **CSS Flexbox** is used for creating responsive layouts by aligning and distributing elements within a container.
 
-### Bootstrap
-**Bootstrap** is used for quick and responsive design with pre-built components like navigation bars and buttons.
+- **Bootstrap** is used for quick and responsive design with pre-built components like navigation bars and buttons.
 
-### JavaScript
-**JavaScript** is used to add interactive features like form validation and dynamic content updates.
+- **JavaScript** is used to add interactive features 
 
-### Git
-**Git** is used for version control, allowing tracking of code changes and collaboration with team members.
+- **Git** is used for version control, allowing tracking of code changes and collaboration with team members.
 
-### GitHub
-**GitHub** is used to host the project’s repository and deploy the website through GitHub Pages.
+- **GitHub** is used to host the project’s repository and deploy the website through GitHub Pages.
 
-### Font Awesome
-**Font Awesome** is used to add scalable vector icons to the website for better user interaction.
+- **Font Awesome** is used to add scalable vector icons to the website for better user interaction.
 
-### Google Fonts
-**Google Fonts** is used to enhance typography by integrating stylish fonts into the website.
+- **Google Fonts** is used to enhance typography by integrating stylish fonts into the website.
 
-### Visual Studio Code
-**Visual Studio Code** is used as the code editor for writing and managing the website's source code.
+- **Visual Studio Code** is used as the code editor for writing and managing the website's source code.
 
 ## Bugs
 
@@ -280,6 +270,14 @@ Any future changes or updates made to the website can be easily deployed by comm
 
 ## Publishing
 We welcome contributions to floristry_school_project! Follow these steps:
+
+### Cloning
+1. On GitHub.com, navigate to the main page of the repository.
+2. Above the list of files, click Code.
+3. Copy the URL for the repository.
+4. Type git clone, and then paste the URL you copied earlier.
+5. Press Enter to create your local clone.
+
 ### Forking
 1. Fork the repository.  
 
@@ -313,15 +311,15 @@ All the content provided on this website is fictional and created for demonstrat
 
 
 ### Media
-- #### Fonts: 
-The website uses the Delius Swash Caps font, available from Google Fonts.
-- #### Icons: 
-Icons used in the site were sourced from FontAwesome (https://fontawesome.com/).
+- **Fonts**: The website uses the Delius Swash Caps font, available from Google Fonts.
+- **Icons**: Icons used in the site were sourced from FontAwesome (https://fontawesome.com/).
 - #### Other tools:
-<>
-1. <strong>Stack Overflow:</strong> Used for troubleshooting and seeking solutions to development challenges (https://stackoverflow.com/).
-2. <strong>CodeWithAnbu:</strong> Resource for learning and improving web development techniques (https://codewithanbu.com/).
-3. <strong>W3Schools:</strong> Used for reference and tutorials on HTML, CSS, JavaScript, and more (https://www.w3schools.com/).
-4. <strong>Chrome DevTools Lighthouse:</strong> Used to test and improve web performance (https://developer.chrome.com/docs/lighthouse/performance/).
-5. <strong>ExpertBeacon:</strong> Helped in learning how to optimize Google Fonts loading for better performance (https://expertbeacon.com/the-ultimate-guide-to-preloading-google-fonts-for-optimal-web-performance/).
-6. <strong>Schemecolor:</strong> Used to create color scheme (https://www.schemecolor.com/).
+
+#### Other tools:
+1. **Stack Overflow**: Used for troubleshooting and seeking solutions to development challenges (https://stackoverflow.com/).
+2. **CodeWithAnbu**: Resource for learning and improving web development techniques (https://codewithanbu.com/).
+3. **W3Schools**: Used for reference and tutorials on HTML, CSS, JavaScript, and more (https://www.w3schools.com/).
+4. **Chrome DevTools Lighthouse**: Used to test and improve web performance (https://developer.chrome.com/docs/lighthouse/performance/).
+5. **ExpertBeacon**: Helped in learning how to optimize Google Fonts loading for better performance (https://expertbeacon.com/the-ultimate-guide-to-preloading-google-fonts-for-optimal-web-performance/).
+6. **Schemecolor**: Used to create color scheme (https://www.schemecolor.com/).
+7. **Code Institute**: Used for learning web development techniques and improving skills through the full stack developer program (https://www.codeinstitute.net/).
