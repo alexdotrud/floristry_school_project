@@ -83,6 +83,11 @@ This project serves as an opportunity to demonstrate web development skills and 
     * Gallery – Directs users to the gallery page, where they can explore floral creations by students.
     * Contacts – Scrolls to the contact section on the home page, allowing users to find contact information.
     * Sign Up – A distinct button-styled link that stands out, leading to the sign-up page for new students.
+
+![Navigation](documentation/navbar.png)
+
+![Mobile navigation](documentation/nav-bar-mobile.png)
+
 ### Footer
 - Positioned at the bottom of the page for easy access to contact details and important information.
 - Divided into two main sections:
@@ -93,6 +98,8 @@ This project serves as an opportunity to demonstrate web development skills and 
 - Opening Hours Table:
     * Clearly lists the school’s opening and closing times for each day of the week.
     * Helps users quickly check when they can visit or contact the school.
+
+![Footer](documentation/footer.png)
 ### Home Page
 - Visually appealing design with a clean, floral-inspired aesthetic that aligns with the theme of the floristry school.
 - Easy navigation ensures users can quickly explore different sections of the website.
@@ -100,31 +107,46 @@ This project serves as an opportunity to demonstrate web development skills and 
 #### Hero Section
 - Large, eye-catching banner featuring a beautiful floral arrangement.
 - A welcoming headline that conveys the essence of the school.
+
+![Hero Section](documentation/hero-section.png)
 #### Introduction section
 - General information about the floristry school, including its mission and offerings.
 - Highlights the school’s approach to teaching, whether through hands-on workshops or comprehensive courses.
 - Engages visitors with a warm and inviting tone, encouraging them to explore floristry.
+
+![Introduction Section](documentation/intro-section.png)
 #### Courses section
 - Provides a detailed breakdown of the various floristry courses and programs available.
 - A  "Sign Up" button is placed for easy access to the Sign-Up Page, encouraging enrollment.
 
+![Courses Section](documentation/courses-section.png)
 ### Gallery Page
-- Showcases a variety of floral arrangements created by students.
-- Displays examples of completed work to inspire prospective students.
+- Contain Introduction and Pictire sections.
 - A  "Stay Updated On New Courses" button is placed for easy access to the Sign-Up Page, encouraging enrollment.
+#### Introduction section
+Introduces users to the Gallery Page, giving short discription about pictures.
 
+![Gallery Introduction Section](documentation/gallery-intro.png)
+#### Pictures section
+- This section displays a collection of pictures showcasing the students’ work, their creative spaces, and beautiful floral arrangements created during their courses.
+
+![Pictures Section](documentation/gallery.png)
 ### Sign Up Page
 #### Sign Up Introduction
 - Provides an overview of the benefits of signing up for updates, including information about upcoming courses and school news.
+
+![Sign Up Introduction Section](documentation/sign-up.png)
 #### Form
 - Simple form for users to sign up for updates on upcoming courses and news.
 - Fields to collect user information such as name, email, username, and specific areas of interest in floristry.
 
+![Forms](documentation/form.png)
 ### Success Page
 - Confirmation message displayed after users successfully submit their details via the sign-up form.
 - Thanks the user for signing up and confirms that they will receive updates.
 - Provides a smooth transition back to the main site, inviting further exploration of courses or gallery.
 
+![Success Page](documentation/success-screen.png)
 ## UX Design
 The UX design of the floristry school website is focused on simplicity, clarity, and accessibility, ensuring a smooth and enjoyable experience for all users. Key design principles include:
 
@@ -202,19 +224,19 @@ Forms & Feedback: The sign-up form is simple and user-friendly, with clear instr
 #### Lighthouse Report:
 - **Home page:**
 
-  ![Home Page performance testing](documentation/home-perfomance.png)
+  ![Home Page lighthouse testing](documentation/home-perfomance.png)
 
 - **Gallery Page:**
 
-  ![Gallery Page performance testing](documentation/gallery-perfomance.png)
+  ![Gallery Page lighthouse testing](documentation/gallery-perfomance.png)
 
 - **Sign Up Page:**
 
-  ![Sign Up Page performance testing](documentation/sign_up-perfomance.png)
+  ![Sign Up Page lighthouse testing](documentation/sign_up-perfomance.png)
 
 - **Success Page:**
 
-  ![Success Page performance testing](documentation/success-perfomance.png)
+  ![Success Page lighthouse testing](documentation/success-perfomance.png)
 
 ## Bugs
 
