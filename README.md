@@ -258,15 +258,21 @@ Forms & Feedback: The sign-up form is simple and user-friendly, with clear instr
 
 ### Validator Testing 
 
-- HTML 
+#### HTML 
 
 On sign up page use (fieldset) element inside div with radio-buttons and checkboxes - fixed.
 No other errors or warnings found.
 
+  - **Inditex.html:** ![Index.html](documentation/html-validator-index.html.png)
+  - **Gallery.html:**![Gallery.html](documentation/html-valisator-gallery.html.png)
+  - **Sign-up.html:**![Sign-uo.html](documentation/html-validator-signup.html.png)
+  - **Success.html:**![Success.html](documentation/html-valodator-success.html.png)
 
-- CSS
+
+#### CSS
 
 No errors found
+  - **Style.css:**![Style.css](documentation/css-validator.png)
 
 
 ## Deployment
@@ -297,7 +303,9 @@ We welcome contributions to floristry_school_project! Follow these steps:
 1. On GitHub.com, navigate to the main page of the repository.
 2. Above the list of files, click Code.
 3. Copy the URL for the repository.
+
  ![Copy this URL](documentation/url-copy.png)
+
 4. Type git clone in opened terminal, and then paste the URL you copied earlier.
 5. Press Enter to create your local clone.
 
