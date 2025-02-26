@@ -238,6 +238,41 @@ Forms & Feedback: The sign-up form is simple and user-friendly, with clear instr
 
   ![Success Page lighthouse testing](documentation/success-perfomance.png)
 
+### Compatibility
+In order to confirm the correct functionality, responsiveness, and appearance:
+
+The website was tested on the following browsers: Chrome, Firefox, Brave.
+
+- **Chrome:**
+- **Firefox:**
+- **Brave:**
+
+### Responsiveness
+The website was checked by devtools implemented in Firefox and Chrome browsers.
+- Home Page:
+- Gallery Page:
+- Sign-Up Page:
+- Success Page:
+The website was checked with Responsive Website Design Tester.
+
+
+### Validator Testing 
+
+#### HTML 
+
+On sign up page use (fieldset) element inside div with radio-buttons and checkboxes - fixed.
+No other errors or warnings found.
+
+  - **Inditex.html:** ![Index.html](documentation/html-validator-index.html.png)
+  - **Gallery.html:**![Gallery.html](documentation/html-valisator-gallery.html.png)
+  - **Sign-up.html:**![Sign-uo.html](documentation/html-validator-signup.html.png)
+  - **Success.html:**![Success.html](documentation/html-valodator-success.html.png)
+
+#### CSS
+
+No errors found
+  - **Style.css:**![Style.css](documentation/css-validator.png)
+
 ## Bugs
 
 ### Solved bugs
@@ -255,25 +290,6 @@ Forms & Feedback: The sign-up form is simple and user-friendly, with clear instr
 ### Unfixed Bugs
 
 - No unfixed bugs found.
-
-### Validator Testing 
-
-#### HTML 
-
-On sign up page use (fieldset) element inside div with radio-buttons and checkboxes - fixed.
-No other errors or warnings found.
-
-  - **Inditex.html:** ![Index.html](documentation/html-validator-index.html.png)
-  - **Gallery.html:**![Gallery.html](documentation/html-valisator-gallery.html.png)
-  - **Sign-up.html:**![Sign-uo.html](documentation/html-validator-signup.html.png)
-  - **Success.html:**![Success.html](documentation/html-valodator-success.html.png)
-
-
-#### CSS
-
-No errors found
-  - **Style.css:**![Style.css](documentation/css-validator.png)
-
 
 ## Deployment
 [Live project can be found here!](https://alexdotrud.github.io/floristry_school_project/)
