@@ -243,16 +243,17 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
 The website was tested on the following browsers: Chrome, Firefox, Brave.
 
-- **Chrome:**
+- **Chrome:**  
+![Chrome](documentation/chrome-screen.gif)
 - **Firefox:**
 - **Brave:**
 
 ### Responsiveness
 The website was checked by devtools implemented in Firefox and Chrome browsers.
-- Home Page:
-- Gallery Page:
-- Sign-Up Page:
-- Success Page:
+- **Home Page:**
+- **Gallery Page:**
+- **Sign-Up Page:**
+- **Success Page:**
 The website was checked with Responsive Website Design Tester.
 
 
