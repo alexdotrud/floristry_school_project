@@ -79,8 +79,8 @@ This project serves as an opportunity to demonstrate web development skills and 
 - Navigation links are on the right side, providing quick access to essential pages:
 
     * Home – Leads to the main page, where users can learn about the floristry school.
-    * Courses – Scrolls to the courses section on the home page, showcasing available floristry courses.
-    * Gallery – Directs users to the gallery page, where they can explore floral creations by students.
+    * Courses – Scrolls to the courses section on the Home page, showcasing available floristry courses.
+    * Gallery – Directs users to the Gallery page, where they can explore floral creations by students.
     * Contacts – Scrolls to the contact section on the home page, allowing users to find contact information.
     * Sign Up – A distinct button-styled link that stands out, leading to the sign-up page for new students.
 
@@ -121,7 +121,7 @@ This project serves as an opportunity to demonstrate web development skills and 
 
 ![Courses Section](documentation/courses-section.png)
 ### Gallery Page
-- Contain Introduction and Pictire sections.
+- Contains Introduction and Pictires sections.
 - A  "Stay Updated On New Courses" button is placed for easy access to the Sign-Up Page, encouraging enrollment.
 #### Introduction section
 Introduces users to the Gallery Page, giving short discription about pictures.
@@ -278,9 +278,9 @@ The website was checked with Responsive Website Design Tester.
 #### HTML 
 
 On sign up page use (fieldset) element inside div with radio-buttons and checkboxes - fixed.
-No other errors or warnings found.
+No other errors or warnings were found.
 
-  - **Inditex.html:** ![Index.html](documentation/html-validator-index.html.png)
+  - **Index.html:** ![Index.html](documentation/html-validator-index.html.png)
   - **Gallery.html:**![Gallery.html](documentation/html-valisator-gallery.html.png)
   - **Sign-up.html:**![Sign-uo.html](documentation/html-validator-signup.html.png)
   - **Success.html:**![Success.html](documentation/html-valodator-success.html.png)
@@ -355,7 +355,7 @@ We welcome contributions to floristry_school_project! Follow these steps:
    git commit -m "Add feature description"
    ```
 
-4. Push the last changes and open a pull request:
+4. Push the latest changes and open a pull request:
    ```bash
    git push
    ```
