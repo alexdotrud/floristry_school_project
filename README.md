@@ -16,7 +16,8 @@ This is a fictional website designed for educational and portfolio purposes. It 
 - [UX Design](#ux-design)  
 - [Technologies Used](#technologies-used)  
 - [Testing](#testing)  
-- [Bugs](#bugs)  
+- [Bugs](#bugs) 
+- [Technical Issues](#technical-issue-with-commit-attribution)
 - [Deployment](#deployment)  
 - [Publishing](#publishing)  
 - [Credits](#credits)  
@@ -280,15 +281,28 @@ The website was checked with Responsive Website Design Tester.
 On sign up page use (fieldset) element inside div with radio-buttons and checkboxes - fixed.
 No other errors or warnings were found.
 
-  - **Index.html:** ![Index.html](documentation/html-validator-index.html.png)
-  - **Gallery.html:**![Gallery.html](documentation/html-valisator-gallery.html.png)
-  - **Sign-up.html:**![Sign-uo.html](documentation/html-validator-signup.html.png)
-  - **Success.html:**![Success.html](documentation/html-valodator-success.html.png)
+  - **Index.html:** 
+
+  ![Index.html](documentation/html-validator-index.html.png)
+
+  - **Gallery.html:**
+
+  ![Gallery.html](documentation/html-valisator-gallery.html.png)
+  
+  - **Sign-up.html:**
+  
+  ![Sign-uo.html](documentation/html-validator-signup.html.png)
+
+  - **Success.html:**
+  
+  ![Success.html](documentation/html-valodator-success.html.png)
 
 #### CSS
 
 No errors found
-  - **Style.css:**![Style.css](documentation/css-validator.png)
+  - **Style.css:**
+
+  ![Style.css](documentation/css-validator.png)
 
 ## Bugs
 
@@ -307,6 +321,20 @@ No errors found
 ### Unfixed Bugs
 
 - No unfixed bugs found.
+
+## Technical Issue with Commit Attribution
+
+During development on the **Floristry School Project** repository, an unexpected issue arose with commit attribution. Although the repository shows contributions from: my account and my partners, some commits I made were mistakenly registered under my partner's GitHub account. This discrepancy could be occurred because we share the same work computer and both use Visual Studio Code for our development work.
+
+To resolve the problem, I reached out to the GitHub Support team and followed their guidance, which successfully corrected the attribution. As this was my first encounter with such an issue, I also contacted Code Institute Student Care and provided them with the details. I will be including their response and the transcript of my chat with a tutor in this documentation for full transparency.
+
+![Contributors](documentation/contributors.png)
+
+![Reply from Student Care](documentation/student%20care.png)
+
+![Reply from Student Care 2](documentation/student-care2.png)
+
+
 
 ## Deployment
 [Live project can be found here!](https://alexdotrud.github.io/floristry_school_project/)
