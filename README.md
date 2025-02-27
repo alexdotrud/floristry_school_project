@@ -241,21 +241,37 @@ Forms & Feedback: The sign-up form is simple and user-friendly, with clear instr
 ### Compatibility
 In order to confirm the correct functionality, responsiveness, and appearance:
 
-The website was tested on the following browsers: Chrome, Firefox, Brave.
+The website was tested on the following browsers: Chrome, Mozilla Firefox, Microsoft Edge.
 
 - **Chrome:**  
+
 ![Chrome](documentation/chrome-screen.gif)
-- **Firefox:**
-- **Brave:**
+
+- **Mozilla Firefox:**
+
+![MMozilla Firefox](documentation/firefox-screen.gif)
+
+- **Microsoft Edge:**
+
+![Microsoft Edge](documentation/microsoft-screen.gif)
 
 ### Responsiveness
-The website was checked by devtools implemented in Firefox and Chrome browsers.
-- **Home Page:**
-- **Gallery Page:**
-- **Sign-Up Page:**
-- **Success Page:**
 The website was checked with Responsive Website Design Tester.
+- **Home Page:**
 
+![Home Page responsiveness](documentation/home-page-respons.gif)
+
+- **Gallery Page:**
+
+![Gallery Page responsiveness](documentation/gallery-page-respons.gif)
+
+- **Sign-Up Page:**
+
+![Sign-Up Page responsiveness](documentation/signup-page-respons.gif)
+
+- **Success Page:**
+
+![Success Page responsiveness](documentation/success-page-respons.gif)
 
 ### Validator Testing 
 
