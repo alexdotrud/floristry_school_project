@@ -287,7 +287,7 @@ No other errors or warnings were found.
 
   - **Gallery.html:**
 
-  ![Gallery.html](documentation/html-valisator-gallery.html.png)
+  ![Gallery.html](documentation/html-validator-gallery.html.png)
   
   - **Sign-up.html:**
   
@@ -295,7 +295,7 @@ No other errors or warnings were found.
 
   - **Success.html:**
   
-  ![Success.html](documentation/html-valodator-success.html.png)
+  ![Success.html](documentation/html-validator-success.html.png)
 
 #### CSS
 
