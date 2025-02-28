@@ -62,15 +62,15 @@ This project serves as an opportunity to demonstrate web development skills and 
 - [Sign Up](#sign-up)
 - [Success Page](#success-page)
 
- ### Home:
+ - ### Home:
 ![Home Page wireframes](documentation/home-page.png)
-### Gallery:
+- ### Gallery:
 ![Gallery Page wireframes](documentation/gallery-page.png)
 
-### Sign Up:
+- ### Sign Up:
 ![Sign Up Page wireframes](documentation/sign_up-page.png)
 
-### Success Page:
+- ### Success Page:
 ![Success Page wireframes](documentation/success-page.png)
 
 ## Features
@@ -96,6 +96,7 @@ This project serves as an opportunity to demonstrate web development skills and 
     * Displays email, phone number, and physical address of Stockholm Floristry School.
     * Includes social media icons for Instagram, Facebook, and X (Twitter), linking to the school’s social platforms.
     * Copyright notice indicating that all rights are reserved.
+    
 - Opening Hours Table:
     * Clearly lists the school’s opening and closing times for each day of the week.
     * Helps users quickly check when they can visit or contact the school.
