@@ -250,7 +250,7 @@ The website was tested on the following browsers: Chrome, Mozilla Firefox, Micro
 
 - **Mozilla Firefox:**
 
-![MMozilla Firefox](documentation/firefox-screen.gif)
+![Mozilla Firefox](documentation/firefox-screen.gif)
 
 - **Microsoft Edge:**
 
