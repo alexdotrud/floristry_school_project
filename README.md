@@ -3,6 +3,13 @@
 
 [View live project here!](https://alexdotrud.github.io/floristry_school_project/)
 
+$\color{red}{\textsf{ ##Important! }}$
+
+During development on the **Floristry School Project** repository, an unexpected issue arose with commit attribution.
+
+[Technical Issues](#technical-issue-with-commit-attribution)
+
+
 Welcome to the Floristry School Website, a demo project created to showcase the design and functionality of a floristry school platform.
 This is a fictional website designed for educational and portfolio purposes. It serves as an example of how a floristry school website could be structured, offering information about courses, student works, and sign-up options for updates.
 
