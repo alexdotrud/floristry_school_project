@@ -404,11 +404,10 @@ All the content provided on this website is fictional and created for demonstrat
 
 
 ### Media
-- **Fonts**: The website uses the Delius Swash Caps font, available from Google Fonts.
-- **Icons**: Icons used in the site were sourced from FontAwesome (https://fontawesome.com/).
-- #### Other tools:
+1. **Fonts**: The website uses the Delius Swash Caps font, available from Google Fonts.
+2. **Icons**: Icons used in the site were sourced from FontAwesome (https://fontawesome.com/).
 
-#### Other tools:
+### Other tools:
 1. **Stack Overflow**: Used for troubleshooting and seeking solutions to development challenges (https://stackoverflow.com/).
 2. **CodeWithAnbu**: Resource for learning and improving web development techniques (https://codewithanbu.com/).
 3. **W3Schools**: Used for reference and tutorials on HTML, CSS, JavaScript, and more (https://www.w3schools.com/).
